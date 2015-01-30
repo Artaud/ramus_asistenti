@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  termin_od: 2015-01-30 11:04:36
+  termin_do: 2015-01-30 11:04:36
+  nazev: MyText
+  typ_akce_id: 
+
+two:
+  termin_od: 2015-01-30 11:04:36
+  termin_do: 2015-01-30 11:04:36
+  nazev: MyText
+  typ_akce_id: 
