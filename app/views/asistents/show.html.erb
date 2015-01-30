@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Jmeno:</strong>
+  <%= @asistent.jmeno %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @asistent.email %>
+</p>
+
+<p>
+  <strong>Telefon:</strong>
+  <%= @asistent.telefon %>
+</p>
+
+<p>
+  <strong>Poznamka:</strong>
+  <%= @asistent.poznamka %>
+</p>
+
+<p>
+  <strong>Ma mlcenlivost:</strong>
+  <%= @asistent.ma_mlcenlivost %>
+</p>
+
+<%= link_to 'Edit', edit_asistent_path(@asistent) %> |
+<%= link_to 'Back', asistents_path %>

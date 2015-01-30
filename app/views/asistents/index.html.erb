@@ -1,0 +1,33 @@
+<h1>Listing asistents</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Jmeno</th>
+      <th>Email</th>
+      <th>Telefon</th>
+      <th>Poznamka</th>
+      <th>Ma mlcenlivost</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @asistents.each do |asistent| %>
+      <tr>
+        <td><%= asistent.jmeno %></td>
+        <td><%= asistent.email %></td>
+        <td><%= asistent.telefon %></td>
+        <td><%= asistent.poznamka %></td>
+        <td><%= asistent.ma_mlcenlivost %></td>
+        <td><%= link_to 'Show', asistent %></td>
+        <td><%= link_to 'Edit', edit_asistent_path(asistent) %></td>
+        <td><%= link_to 'Destroy', asistent, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Asistent', new_asistent_path %>
