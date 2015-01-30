@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Termin od:</strong>
+  <%= @akce.termin_od %>
+</p>
+
+<p>
+  <strong>Termin do:</strong>
+  <%= @akce.termin_do %>
+</p>
+
+<p>
+  <strong>Nazev:</strong>
+  <%= @akce.nazev %>
+</p>
+
+<p>
+  <strong>Typ akce:</strong>
+  <%= @akce.typ_akce %>
+</p>
+
+<%= link_to 'Edit', edit_akce_path(@akce) %> |
+<%= link_to 'Back', akces_path %>

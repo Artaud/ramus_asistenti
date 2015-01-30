@@ -1,0 +1,14 @@
+<%= simple_form_for(@akce) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :termin_od %>
+    <%= f.input :termin_do %>
+    <%= f.input :nazev %>
+    <%= f.association :typ_akce %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
