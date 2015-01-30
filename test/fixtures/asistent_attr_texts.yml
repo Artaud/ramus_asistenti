@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hodnota: MyText
+  attr_text_id: 
+  asistent_id: 
+
+two:
+  hodnota: MyText
+  attr_text_id: 
+  asistent_id: 
